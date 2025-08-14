@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: rgba(245, 245, 247, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.appleicon {
+  width: 13px;
+  height: 16px;
+}
+.headerbutton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.section {
+  width: 100%;
+  height: 44px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionP {
+  font-size: 14px;
+}
+.Hero {
+  width: 100%;
+  display: flex;
+  position: relative;
+  aspect-ratio: 2.7;
+  justify-content: center;
+  align-items: start;
+}
+.heroimg {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+.herodiv {
+  width: 405px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.herodiv1 {
+  width: 405px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+}
+.herodivP {
+  color: white;
+  font-size: 24px;
+}
+.herodivH1 {
+  font-size: 52px;
+  color: white;
+}
+.herobuttonL {
+  width: 123px;
+  height: 44px;
+  background-color: rgba(0, 113, 227, 1);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.herobuttonB {
+  width: 64px;
+  height: 44px;
+  border-color: rgba(0, 113, 227, 1);
+  border-radius: 50px;
+  color: rgba(0, 113, 227, 1);
+  background-color: transparent;
+  cursor: pointer;
+}
+.Learn {
+  color: black;
+  background-color: white;
+}
+.Buy {
+  border-color: white;
+  color: white;
+}
+.gift {
+  align-items: end;
+}
+.giftdiv {
+  margin-bottom: 20px;
+}
