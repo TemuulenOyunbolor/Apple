@@ -58,7 +58,6 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 50px;
 }
 .herodivP {
   color: white;
@@ -97,6 +96,60 @@
 .gift {
   align-items: end;
 }
-.giftdiv {
-  margin-bottom: 20px;
+.sixpd {
+  width: 100vw;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.sixpd1 {
+  width: 49%;
+  aspect-ratio: 1.6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.sixph {
+  height: 100%;
+  aspect-ratio: 1.6;
+  position: absolute;
+  z-index: -1;
+}
+.ipadc {
+  width: 430px;
+  height: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.sixdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.hellocolor {
+  background: linear-gradient(
+    90deg,
+    rgba(40, 62, 161, 1) 0%,
+    rgba(253, 29, 197, 1) 50%,
+    rgba(253, 115, 52, 1) 79%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.apple {
+  width: 27px;
+  height: 32px;
+}
+.applediv {
+  display: flex;
+  gap: 10px;
 }
